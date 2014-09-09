@@ -79,11 +79,7 @@ int main(int argc, char *argv[], char *envp[])
 			}
 		}
 
-		int ix = 0;
-		while (SetupDiEnumDeviceInfo(hDevInfo, ix++, &DeviceInfoData))
-		{
-			printf("Match\n");
-		}
+
 
 		printf("Result:[%s]\n", buffer);
 
